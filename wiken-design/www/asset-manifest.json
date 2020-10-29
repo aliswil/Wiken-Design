@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.365fb7a4.chunk.css",
+    "main.js": "/static/js/main.25413c12.chunk.js",
+    "main.js.map": "/static/js/main.25413c12.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2bb7ae76.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2bb7ae76.js.map",
+    "static/js/2.c51e9e10.chunk.js": "/static/js/2.c51e9e10.chunk.js",
+    "static/js/2.c51e9e10.chunk.js.map": "/static/js/2.c51e9e10.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9aea94951674ec9d5f9d27b1cb8fd416.js": "/precache-manifest.9aea94951674ec9d5f9d27b1cb8fd416.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.365fb7a4.chunk.css.map": "/static/css/main.365fb7a4.chunk.css.map",
+    "static/js/2.c51e9e10.chunk.js.LICENSE.txt": "/static/js/2.c51e9e10.chunk.js.LICENSE.txt",
+    "static/media/logo_hvit.png": "/static/media/logo_hvit.8b7e11eb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb7ae76.js",
+    "static/js/2.c51e9e10.chunk.js",
+    "static/css/main.365fb7a4.chunk.css",
+    "static/js/main.25413c12.chunk.js"
+  ]
+}
