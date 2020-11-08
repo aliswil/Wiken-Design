@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
 
-import Gallery from "./components/gallery/Gallery";
-
 import logo from "./img/logo_hvit.png";
+import Gallery from "./components/gallery/Gallery";
 
 function App() {
   return (
