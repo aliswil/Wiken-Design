@@ -28,18 +28,27 @@ function Gallery() {
   console.log(galleryData);
 
   return (
-    <div className="gallery-header">
-      <h1 className="avistegninger_overskrift">Avistegninger</h1>
-      <div>
-        {galleryData &&
-          galleryData.map((gallery, index) => (
-            <Link>
-              <span key={index}>
-                <h2>{gallery.title}</h2>
-                <img src={gallery.drawing.asset.url} alt="drawing" />
-              </span>
-            </Link>
-          ))}
+    <div className="min-h-screen p-12">
+      <div className="container mx-auto">
+        <h1 className="text-5xl flex justify-center mb-12">Avisteikningar</h1>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
+          {galleryData &&
+            galleryData.map((gallery, index) => (
+              <Link>
+                <span
+                  /*className="block bg-white relative shadow leading-snug"*/
+                  key={index}
+                >
+                  <h2 className="mb-5">{gallery.title}</h2>
+                  <img
+                    className="shadow"
+                    src={gallery.drawing.asset.url}
+                    alt="drawing"
+                  />
+                </span>
+              </Link>
+            ))}
+        </div>
       </div>
     </div>
   );
